@@ -33,7 +33,7 @@
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
       if (entry.isIntersecting) {
-        const delay = entry.target.closest('.products, .brands__grid, .about__features')
+        const delay = entry.target.closest('.products, .brands__grid, .about__features, .highlights__scroll')
           ? [...entry.target.parentElement.children].indexOf(entry.target) * 100
           : 0;
         setTimeout(() => entry.target.classList.add('visible'), delay);

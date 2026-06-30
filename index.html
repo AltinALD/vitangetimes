@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ELI Watches — orë ekskluzive në Prishtinë. Daniel Klein, Slazenger, Polo Exchange. Dërgesë në Kosovë, Shqipëri dhe Maqedoni.">
-  <title>ELI Watches | Orë & Aksesorë</title>
+  <meta name="description" content="As-Ora — orë ekskluzive në Mitrovicë. Daniel Klein, Ferrucci, BH Polo Club. Porosit në Instagram DM. Dërgesë në Kosovë.">
+  <title>As-Ora | Orë & Aksesorë</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -12,24 +12,41 @@
 </head>
 <body>
 
+  <div class="grain" aria-hidden="true"></div>
+
   <!-- Announcement bar -->
   <div class="announcement">
-    <span>Porosit në DM — dërgesë në 🇽🇰 KS · 🇦🇱 AL · 🇲🇰 MK</span>
-    <a href="tel:+38344744588">044 744 588</a>
+    <span class="announcement__glow"></span>
+    <span>Porosit në DM — dërgesë në 🇽🇰 Kosovë</span>
+    <a href="https://ig.me/m/as_ora_" target="_blank" rel="noopener">@as_ora_</a>
   </div>
 
   <!-- Header -->
   <header class="header" id="header">
     <div class="header__inner">
-      <a href="#" class="header__logo">
-        <img src="images/logo.png" alt="ELI Watches">
+      <a href="#" class="header__logo" aria-label="As-Ora">
+        <div class="logo">
+          <div class="logo__icon">
+            <div class="logo__ring"></div>
+            <div class="logo__face">
+              <span class="logo__tick logo__tick--12"></span>
+              <span class="logo__tick logo__tick--3"></span>
+              <span class="logo__tick logo__tick--6"></span>
+              <span class="logo__tick logo__tick--9"></span>
+              <span class="logo__hand logo__hand--hour"></span>
+              <span class="logo__hand logo__hand--minute"></span>
+              <span class="logo__center"></span>
+            </div>
+          </div>
+          <span class="logo__text">AS ORA</span>
+        </div>
       </a>
       <nav class="nav" id="nav">
         <a href="#collection" class="nav__link">Koleksioni</a>
         <a href="#brands" class="nav__link">Brendet</a>
         <a href="#about" class="nav__link">Rreth nesh</a>
         <a href="#contact" class="nav__link">Kontakt</a>
-        <a href="https://wa.me/38344744588" class="nav__cta" target="_blank" rel="noopener">Porosit</a>
+        <a href="https://ig.me/m/as_ora_" class="nav__cta" target="_blank" rel="noopener">Porosit</a>
       </nav>
       <button class="header__burger" id="burger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -44,14 +61,32 @@
         <source src="images/v1.mp4" type="video/mp4">
       </video>
       <div class="hero__overlay"></div>
+      <div class="hero__glow hero__glow--left" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--right" aria-hidden="true"></div>
     </div>
     <div class="hero__content">
-      <p class="hero__eyebrow reveal">Prishtinë · Dardani, Nen Kurriz</p>
-      <h1 class="hero__title reveal">Elegancë<br><em>pa Kohë</em></h1>
-      <p class="hero__subtitle reveal">Orë premium për ata që kërkojnë stil dhe cilësi në çdo moment.</p>
+      <p class="hero__eyebrow reveal">Mitrovicë · Kosovë</p>
+      <h1 class="hero__title reveal">AS <span class="hero__title-accent">ORA</span><br><em>Elegancë pa Kohë</em></h1>
+      <p class="hero__subtitle reveal">Orë premium për ata që kërkojnë stil, cilësi dhe ekskluzivitet në çdo moment.</p>
+      <div class="hero__stats reveal">
+        <div class="hero__stat">
+          <span class="hero__stat-num">59.3k</span>
+          <span class="hero__stat-label">Ndjekës</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">6.4k+</span>
+          <span class="hero__stat-label">Modele</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">100%</span>
+          <span class="hero__stat-label">Origjinal</span>
+        </div>
+      </div>
       <div class="hero__actions reveal">
         <a href="#collection" class="btn btn--gold">Shiko Koleksionin</a>
-        <a href="https://wa.me/38344744588" class="btn btn--outline" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://ig.me/m/as_ora_" class="btn btn--outline" target="_blank" rel="noopener">Instagram DM</a>
       </div>
     </div>
     <div class="hero__scroll">
@@ -64,19 +99,49 @@
   <div class="marquee" aria-hidden="true">
     <div class="marquee__track">
       <span>Daniel Klein</span><span class="marquee__dot">◆</span>
-      <span>Slazenger</span><span class="marquee__dot">◆</span>
-      <span>Polo Exchange</span><span class="marquee__dot">◆</span>
-      <span>ELI Watches</span><span class="marquee__dot">◆</span>
-      <span>Prishtinë</span><span class="marquee__dot">◆</span>
+      <span>Ferrucci</span><span class="marquee__dot">◆</span>
+      <span>BH Polo Club</span><span class="marquee__dot">◆</span>
+      <span>As-Ora</span><span class="marquee__dot">◆</span>
+      <span>Mitrovicë</span><span class="marquee__dot">◆</span>
       <span>Kosovë</span><span class="marquee__dot">◆</span>
       <span>Daniel Klein</span><span class="marquee__dot">◆</span>
-      <span>Slazenger</span><span class="marquee__dot">◆</span>
-      <span>Polo Exchange</span><span class="marquee__dot">◆</span>
-      <span>ELI Watches</span><span class="marquee__dot">◆</span>
-      <span>Prishtinë</span><span class="marquee__dot">◆</span>
+      <span>Ferrucci</span><span class="marquee__dot">◆</span>
+      <span>BH Polo Club</span><span class="marquee__dot">◆</span>
+      <span>As-Ora</span><span class="marquee__dot">◆</span>
+      <span>Mitrovicë</span><span class="marquee__dot">◆</span>
       <span>Kosovë</span><span class="marquee__dot">◆</span>
     </div>
   </div>
+
+  <!-- Highlights -->
+  <section class="highlights" id="highlights">
+    <div class="container">
+      <div class="highlights__scroll">
+        <a href="#brands" class="highlight reveal">
+          <div class="highlight__ring"><img src="images/p7.png" alt="Daniel Klein"></div>
+          <span>Daniel Klein</span>
+        </a>
+        <a href="#brands" class="highlight reveal">
+          <div class="highlight__ring"><img src="images/p1.png" alt="Ferrucci"></div>
+          <span>Ferrucci</span>
+        </a>
+        <a href="#brands" class="highlight reveal">
+          <div class="highlight__ring"><img src="images/p6.png" alt="BH Polo Club"></div>
+          <span>BH Polo Club</span>
+        </a>
+        <a href="#collection" class="highlight reveal">
+          <div class="highlight__ring highlight__ring--sale"><span class="highlight__sale">%</span></div>
+          <span>DK Zbritje</span>
+        </a>
+        <a href="#contact" class="highlight reveal">
+          <div class="highlight__ring highlight__ring--icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M12 21s7-4.35 7-10a7 7 0 10-14 0c0 5.65 7 10 7 10z"/><circle cx="12" cy="11" r="2.5"/></svg>
+          </div>
+          <span>Lokacioni</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
   <!-- Collection -->
   <section class="section collection" id="collection">
@@ -84,94 +149,57 @@
       <div class="section__header">
         <span class="section__label reveal">Koleksioni</span>
         <h2 class="section__title reveal">Orë që<br>Flet për Ty</h2>
-        <p class="section__desc reveal">Çdo model është zgjedhur me kujdes — cilësi premium, stil i pakompromis.</p>
+        <p class="section__desc reveal">Çdo model prezantohet me kujdes — cilësi premium, stil i pakompromis.</p>
       </div>
 
       <div class="products">
         <article class="product reveal">
           <div class="product__img-wrap">
-            <img src="images/p1.png" alt="Polo Exchange Red Dial" loading="lazy">
+            <img src="images/p1.png" alt="Ferrucci Gold Edition" loading="lazy">
             <div class="product__overlay">
-              <a href="https://wa.me/38344744588?text=P%C3%ABrsh%C3%ABndetje%2C%20jam%20i%20interesuar%20p%C3%ABr%20nj%C3%AB%20or%C3%AB%20Polo%20Exchange" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
+              <a href="https://ig.me/m/as_ora_" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
             </div>
           </div>
           <div class="product__info">
-            <span class="product__brand">Polo Exchange</span>
-            <h3 class="product__name">Red Dial Edition</h3>
+            <span class="product__brand">Ferrucci</span>
+            <h3 class="product__name">Gold Edition</h3>
             <p class="product__desc">Stil luksoz me prezantim premium në kuti dhurate.</p>
-          </div>
-        </article>
-
-        <article class="product reveal">
-          <div class="product__img-wrap">
-            <img src="images/p3.jpg" alt="CRRJU Navy Rose Gold" loading="lazy">
-            <div class="product__overlay">
-              <a href="https://wa.me/38344744588?text=P%C3%ABrsh%C3%ABndetje%2C%20jam%20i%20interesuar%20p%C3%ABr%20nj%C3%AB%20or%C3%AB%20CRRJU%20Navy%20Rose%20Gold" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
-            </div>
-          </div>
-          <div class="product__info">
-            <span class="product__brand">CRRJU</span>
-            <h3 class="product__name">Navy Rose Gold</h3>
-            <p class="product__desc">Kronograf modern në nuanca navy dhe rose gold.</p>
-          </div>
-        </article>
-
-        <article class="product reveal">
-          <div class="product__img-wrap">
-            <img src="images/p4.jpg" alt="Casio Wave Ceptor" loading="lazy">
-            <div class="product__overlay">
-              <a href="https://wa.me/38344744588?text=P%C3%ABrsh%C3%ABndetje%2C%20jam%20i%20interesuar%20p%C3%ABr%20nj%C3%AB%20or%C3%AB%20Casio%20Wave%20Ceptor" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
-            </div>
-          </div>
-          <div class="product__info">
-            <span class="product__brand">Casio</span>
-            <h3 class="product__name">Wave Ceptor</h3>
-            <p class="product__desc">Kronograf me sinjal radio — saktësi maksimale.</p>
           </div>
         </article>
 
         <article class="product product--featured reveal">
           <div class="product__img-wrap">
-            <img src="images/p5.jpg" alt="Patek Philippe Nautilus" loading="lazy">
-            <div class="product__badge">Featured</div>
-            <div class="product__overlay">
-              <a href="https://wa.me/38344744588?text=P%C3%ABrsh%C3%ABndetje%2C%20jam%20i%20interesuar%20p%C3%ABr%20nj%C3%AB%20or%C3%AB%20Nautilus" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
-            </div>
-          </div>
-          <div class="product__info">
-            <span class="product__brand">Patek Philippe</span>
-            <h3 class="product__name">Nautilus</h3>
-            <p class="product__desc">Ikona e luksit — dizajn legjendar me dial blu.</p>
-          </div>
-        </article>
-
-        <article class="product reveal">
-          <div class="product__img-wrap">
-            <img src="images/p6.png" alt="Polo Exchange Chronograph" loading="lazy">
-            <div class="product__overlay">
-              <a href="https://wa.me/38344744588?text=P%C3%ABrsh%C3%ABndetje%2C%20jam%20i%20interesuar%20p%C3%ABr%20nj%C3%AB%20or%C3%AB%20Polo%20Exchange%20Chronograph" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
-            </div>
-          </div>
-          <div class="product__info">
-            <span class="product__brand">Polo Exchange</span>
-            <h3 class="product__name">Chronograph Blue</h3>
-            <p class="product__desc">Kronograf sportiv me dial blu dhe braket metalik.</p>
-          </div>
-        </article>
-
-        <article class="product reveal">
-          <div class="product__img-wrap">
             <img src="images/p7.png" alt="Daniel Klein Exclusive" loading="lazy">
+            <div class="product__badge">Ekskluzive</div>
             <div class="product__overlay">
-              <a href="https://wa.me/38344744588?text=P%C3%ABrsh%C3%ABndetje%2C%20jam%20i%20interesuar%20p%C3%ABr%20nj%C3%AB%20or%C3%AB%20Daniel%20Klein" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
+              <a href="https://ig.me/m/as_ora_" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
             </div>
           </div>
           <div class="product__info">
             <span class="product__brand">Daniel Klein</span>
             <h3 class="product__name">Exclusive</h3>
-            <p class="product__desc">Dial i zi me funksione të shumta — elegancë moderne.</p>
+            <p class="product__desc">Dial elegant me funksione moderne — për stil të përditshëm.</p>
           </div>
         </article>
+
+        <article class="product reveal">
+          <div class="product__img-wrap">
+            <img src="images/p6.png" alt="BH Polo Club Chronograph" loading="lazy">
+            <div class="product__overlay">
+              <a href="https://ig.me/m/as_ora_" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Porosit</a>
+            </div>
+          </div>
+          <div class="product__info">
+            <span class="product__brand">BH Polo Club</span>
+            <h3 class="product__name">Chronograph Blue</h3>
+            <p class="product__desc">Kronograf sportiv me dial blu dhe braket metalik.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="collection__cta reveal">
+        <p>Shiko të gjitha modelet në Instagram</p>
+        <a href="https://www.instagram.com/as_ora_/" class="btn btn--outline" target="_blank" rel="noopener">@as_ora_</a>
       </div>
     </div>
   </section>
@@ -190,19 +218,19 @@
           <p class="brand-card__desc">Orë elegante me dizajn modern dhe cilësi të lartë.</p>
         </div>
         <div class="brand-card reveal">
-          <span class="brand-card__abbr">SLZ</span>
-          <h3 class="brand-card__name">Slazenger</h3>
-          <p class="brand-card__desc">Modele sportive dhe klasike për stil të përditshëm.</p>
+          <span class="brand-card__abbr">FE</span>
+          <h3 class="brand-card__name">Ferrucci</h3>
+          <p class="brand-card__desc">Koleksion luksoz me prekje italiane dhe prezantim premium.</p>
         </div>
         <div class="brand-card reveal">
-          <span class="brand-card__abbr">PE</span>
-          <h3 class="brand-card__name">Polo Exchange</h3>
-          <p class="brand-card__desc">Koleksion premium me prekje luksoze.</p>
+          <span class="brand-card__abbr">BH</span>
+          <h3 class="brand-card__name">BH Polo Club</h3>
+          <p class="brand-card__desc">Modele sportive dhe klasike për stil të përditshëm.</p>
         </div>
         <div class="brand-card reveal">
           <span class="brand-card__abbr">SHIP</span>
           <h3 class="brand-card__name">Dërgesë</h3>
-          <p class="brand-card__desc">Dërgesë e sigurt në Kosovë, Shqipëri dhe Maqedoni të Veriut.</p>
+          <p class="brand-card__desc">Dërgesë e sigurt në të gjithë Kosovën — porosit në DM.</p>
         </div>
       </div>
     </div>
@@ -212,15 +240,16 @@
   <section class="section about" id="about">
     <div class="container about__grid">
       <div class="about__visual reveal">
-        <img src="images/p6.png" alt="ELI Watches" loading="lazy">
+        <img src="images/p7.png" alt="As-Ora" loading="lazy">
         <div class="about__frame"></div>
+        <div class="about__glow" aria-hidden="true"></div>
       </div>
       <div class="about__content">
-        <span class="section__label reveal">Rreth ELI Watches</span>
+        <span class="section__label reveal">Rreth As-Ora</span>
         <h2 class="section__title reveal">Ku Stili<br>Bëhet Eksperiencë</h2>
         <p class="about__text reveal">
-          ELI Watches është destinacioni juaj për orë premium në Prishtinë — Dardani, Nen Kurriz.
-          Çdo model prezantohet me kujdes, stil dhe ekskluzivitet.
+          As-Ora është destinacioni juaj për orë premium në Mitrovicë.
+          Me mbi 59 mijë ndjekës, çdo model prezantohet me kujdes, stil dhe ekskluzivitet.
         </p>
         <ul class="about__features reveal">
           <li>
@@ -241,13 +270,13 @@
             <span class="about__icon">◆</span>
             <div>
               <strong>Shërbim Personal</strong>
-              <p>Porosit në DM — WhatsApp & Viber.</p>
+              <p>Porosit direkt në Instagram DM.</p>
             </div>
           </li>
         </ul>
         <div class="about__social reveal">
-          <a href="https://www.instagram.com/eli.watches/" class="btn btn--outline" target="_blank" rel="noopener">@eli.watches</a>
-          <a href="https://www.facebook.com/Dpt.Eli" class="btn btn--outline" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/as_ora_/" class="btn btn--outline" target="_blank" rel="noopener">@as_ora_</a>
+          <a href="https://ig.me/m/as_ora_" class="btn btn--gold btn--sm" target="_blank" rel="noopener">Dërgo DM</a>
         </div>
       </div>
     </div>
@@ -257,32 +286,33 @@
   <section class="section contact" id="contact">
     <div class="container">
       <div class="contact__card reveal">
+        <div class="contact__glow" aria-hidden="true"></div>
         <div class="contact__info">
           <span class="section__label">Kontakt</span>
           <h2 class="section__title">Na<br>Kontaktoni</h2>
-          <p class="contact__text">Na gjeni në Prishtinë — Dardani, Nen Kurriz. Porosit në DM ose na telefononi direkt.</p>
+          <p class="contact__text">Na gjeni në Mitrovicë. Porosit në Instagram DM ose na ndiqni për modelet më të reja.</p>
           <div class="contact__details">
-            <a href="tel:+38344744588" class="contact__item">
-              <span class="contact__item-label">Telefon</span>
-              <span class="contact__item-value">044 744 588</span>
+            <a href="https://ig.me/m/as_ora_" class="contact__item" target="_blank" rel="noopener">
+              <span class="contact__item-label">Instagram DM</span>
+              <span class="contact__item-value">@as_ora_ →</span>
             </a>
-            <a href="https://wa.me/38344744588" class="contact__item" target="_blank" rel="noopener">
-              <span class="contact__item-label">WhatsApp</span>
-              <span class="contact__item-value">Dërgo mesazh →</span>
-            </a>
-            <a href="viber://chat?number=38344744588" class="contact__item">
-              <span class="contact__item-label">Viber</span>
-              <span class="contact__item-value">Dërgo mesazh →</span>
+            <a href="https://www.instagram.com/as_ora_/" class="contact__item" target="_blank" rel="noopener">
+              <span class="contact__item-label">Instagram</span>
+              <span class="contact__item-value">Na ndiqni →</span>
             </a>
             <div class="contact__item">
               <span class="contact__item-label">Lokacioni</span>
-              <span class="contact__item-value">Prishtinë — Dardani, Nen Kurriz</span>
+              <span class="contact__item-value">Mitrovicë, Kosovë</span>
+            </div>
+            <div class="contact__item">
+              <span class="contact__item-label">Kategoria</span>
+              <span class="contact__item-value">Shopping & Retail</span>
             </div>
           </div>
         </div>
         <div class="contact__cta">
           <p>Gati për orën tuaj të radhës?</p>
-          <a href="https://wa.me/38344744588" class="btn btn--gold btn--lg" target="_blank" rel="noopener">Porosit Tani</a>
+          <a href="https://ig.me/m/as_ora_" class="btn btn--gold btn--lg" target="_blank" rel="noopener">Porosit Tani</a>
         </div>
       </div>
     </div>
@@ -291,21 +321,31 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container footer__inner">
-      <img src="images/logo.png" alt="ELI Watches" class="footer__logo">
-      <p class="footer__tagline">Orë & Aksesorë · Prishtinë, Kosovë</p>
+      <div class="logo logo--footer">
+        <div class="logo__icon">
+          <div class="logo__ring"></div>
+          <div class="logo__face">
+            <span class="logo__hand logo__hand--hour"></span>
+            <span class="logo__hand logo__hand--minute"></span>
+            <span class="logo__center"></span>
+          </div>
+        </div>
+        <span class="logo__text">AS ORA</span>
+      </div>
+      <p class="footer__tagline">Orë & Aksesorë · Mitrovicë, Kosovë</p>
       <div class="footer__links">
         <a href="#collection">Koleksioni</a>
         <a href="#brands">Brendet</a>
         <a href="#about">Rreth nesh</a>
         <a href="#contact">Kontakt</a>
       </div>
-      <p class="footer__copy">&copy; 2026 ELI Watches. Të gjitha të drejtat e rezervuara.</p>
+      <p class="footer__copy">&copy; 2026 As-Ora. Të gjitha të drejtat e rezervuara.</p>
     </div>
   </footer>
 
-  <!-- WhatsApp float -->
-  <a href="https://wa.me/38344744588" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
-    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <!-- Instagram float -->
+  <a href="https://ig.me/m/as_ora_" class="ig-float" target="_blank" rel="noopener" aria-label="Instagram DM">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
   </a>
 
   <script src="js/main.js"></script>
