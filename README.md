@@ -8,9 +8,9 @@ Website for **VintageTimes.mk** — vintage original watches. Omega, Longines, Z
 
 ---
 
-## GitHub Pages — enable once
+## GitHub Pages — enable once (required)
 
-The site will show **404** until Pages is enabled:
+The site will show **404** until you do this **one time**:
 
 ### Step 1 — Open Pages settings
 
@@ -34,10 +34,24 @@ Wait **1–3 minutes**, then open: **https://altinald.github.io/vitangetimes/**
 
 ---
 
-## Alternative: GitHub Actions
+## If you see a failed "Deploy GitHub Pages" workflow
 
-1. Settings → Pages → Source → **GitHub Actions**
-2. Check **Actions** tab: https://github.com/AltinALD/vitangetimes/actions
+That old workflow expected **GitHub Actions** as the Pages source. This repo now uses **branch deploy** instead (simpler for a static site).
+
+1. Ignore or delete any failed workflow runs under the **Actions** tab.
+2. Follow the steps above — use **Deploy from a branch**, not GitHub Actions.
+
+---
+
+## Push to GitHub
+
+Make sure you push to the correct remote:
+
+```bash
+git push vitangetimes main
+```
+
+(`origin` points to a different repo — use `vitangetimes` for this project.)
 
 ---
 
