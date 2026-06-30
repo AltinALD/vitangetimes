@@ -1,20 +1,20 @@
-# As-Ora
+# VintageTimes.mk
 
-Website for **As-Ora** — luxury watches in Mitrovicë, Kosovë.
+Website for **VintageTimes.mk** — vintage original watches. Omega, Longines, Zenith, Seiko & more.
 
 ## Live link (after setup)
 
-**https://altinald.github.io/As_ora/**
+**https://altinald.github.io/vitangetimes/**
 
 ---
 
-## GitHub Pages is NOT automatic — you must enable it once
+## GitHub Pages — enable once
 
-The code is on GitHub, but the website will show **404** until you do this:
+The site will show **404** until Pages is enabled:
 
 ### Step 1 — Open Pages settings
 
-Go to: **https://github.com/AltinALD/As_ora/settings/pages**
+Go to: **https://github.com/AltinALD/vitangetimes/settings/pages**
 
 ### Step 2 — Choose source
 
@@ -30,23 +30,19 @@ Click **Save**.
 
 ### Step 3 — Wait
 
-Wait **1–3 minutes**, then open: **https://altinald.github.io/As_ora/**
-
-The green link also appears on the Pages settings page when it's ready.
+Wait **1–3 minutes**, then open: **https://altinald.github.io/vitangetimes/**
 
 ---
 
 ## Alternative: GitHub Actions
 
-If you prefer Actions instead:
-
 1. Settings → Pages → Source → **GitHub Actions**
-2. Check **Actions** tab for a green checkmark: https://github.com/AltinALD/As_ora/actions
+2. Check **Actions** tab: https://github.com/AltinALD/vitangetimes/actions
 
 ---
 
 ## Still 404?
 
-- Make sure repo is **Public** (Settings → General → Danger Zone → Change visibility): https://github.com/AltinALD/As_ora/settings
-- Use exact URL: `https://altinald.github.io/As_ora/`
+- Repo must be **Public**
+- Use exact URL: `https://altinald.github.io/vitangetimes/`
 - Hard refresh: `Ctrl + Shift + R`
