@@ -4,7 +4,7 @@ Website for **As-Ora** — luxury watches in Mitrovicë, Kosovë.
 
 ## Live link (after setup)
 
-**https://altinald.github.io/As-ora/**
+**https://altinald.github.io/As_ora/**
 
 ---
 
@@ -14,7 +14,7 @@ The code is on GitHub, but the website will show **404** until you do this:
 
 ### Step 1 — Open Pages settings
 
-Go to: **https://github.com/AltinALD/As-ora/settings/pages**
+Go to: **https://github.com/AltinALD/As_ora/settings/pages**
 
 ### Step 2 — Choose source
 
@@ -30,7 +30,7 @@ Click **Save**.
 
 ### Step 3 — Wait
 
-Wait **1–3 minutes**, then open: **https://altinald.github.io/As-ora/**
+Wait **1–3 minutes**, then open: **https://altinald.github.io/As_ora/**
 
 The green link also appears on the Pages settings page when it's ready.
 
@@ -41,12 +41,12 @@ The green link also appears on the Pages settings page when it's ready.
 If you prefer Actions instead:
 
 1. Settings → Pages → Source → **GitHub Actions**
-2. Check **Actions** tab for a green checkmark: https://github.com/AltinALD/As-ora/actions
+2. Check **Actions** tab for a green checkmark: https://github.com/AltinALD/As_ora/actions
 
 ---
 
 ## Still 404?
 
-- Make sure repo is **Public** (Settings → General → Danger Zone → Change visibility)
-- Use exact URL: `https://altinald.github.io/As-ora/` (capital **A** in As-ora)
+- Make sure repo is **Public** (Settings → General → Danger Zone → Change visibility): https://github.com/AltinALD/As_ora/settings
+- Use exact URL: `https://altinald.github.io/As_ora/`
 - Hard refresh: `Ctrl + Shift + R`
